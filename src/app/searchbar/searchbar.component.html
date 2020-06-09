@@ -1,0 +1,12 @@
+<div class="container">
+    <form (submit)="onSubmit($event)">
+        <div class="form-group">
+            <input class="form-control" (input)="user_term = $event.target.value" placeholder="Find Your Name In History"aria-describedby="emailHelp"/>
+        </div>
+        <div class="text-center">
+            <button type="Submit" class="btn btn-info">Search</button>
+        </div>
+    </form>
+</div>
+
+   
